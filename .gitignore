@@ -1,0 +1,71 @@
+# Environment variables (sensitive data)
+.env
+
+# Log files
+log.txt
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Backup files
+*.bak
+*.backup
+*.tmp
+
+# Email drafts and sensitive data
+drafts/
+sensitive/
+test_data/
+actual_recipients.json
+real_emails.json
+
+# Windows Task Scheduler files (in case you add them later)
+*.bat
+*.cmd
+*.ps1
